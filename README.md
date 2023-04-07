@@ -1,4 +1,4 @@
-# Learning
+# React Tour Page
 ---
-| Trying out github.
-| Mainly code in C#, Python and some Webb!
++ Doing some test and learning basic futures in React.
++ Not something big but fun!
