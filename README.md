@@ -1,4 +1,4 @@
-[![CI](https://github.com/dink42/React-Tours/actions/workflows/blank.yml/badge.svg)](https://github.com/dink42/React-Tours/actions/workflows/blank.yml) [![Deploy Jekyll](https://github.com/dink42/React-Tours/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/dink42/React-Tours/actions/workflows/jekyll-gh-pages.yml)
+[![CI](https://github.com/dink42/React-Tours/actions/workflows/blank.yml/badge.svg)](https://github.com/dink42/React-Tours/actions/workflows/blank.yml)
 
 ## React Projects Starter APP
 ---
