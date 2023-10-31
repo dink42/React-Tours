@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ $detected-codeql-languages ]
+        language: [ "javascript-typescript", "javascript" ]
 
     steps:
     - name: Checkout repository
