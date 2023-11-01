@@ -12,8 +12,8 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
-    timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
+    runs-on: ${{ ("javascript-typescript") || 'ubuntu-latest' }}
+    timeout-minutes: ${{ ("javascript-typescript") || 360 }}
     permissions:
       actions: read
       contents: read
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ "javascript-typescript", "javascript" ]
+        language: [ "javascript-typescript" ]
 
     steps:
     - name: Checkout repository
@@ -53,4 +53,4 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
       with:
-        category: "/language:${{matrix.language}}"
+        category: "/language:${{javascript-typescript}}"
