@@ -12,7 +12,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: ${{ "javascript-typescript" || 'ubuntu-latest' }}
+    runs-on: ${{ "javascript-typescript" || "ubuntu-latest" }}
     timeout-minutes: ${{ ("javascript-typescript") || 360 }}
     permissions:
       actions: read
